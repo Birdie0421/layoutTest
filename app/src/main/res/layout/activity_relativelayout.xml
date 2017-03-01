@@ -1,12 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+
+
+    <Button
+        android:id="@+id/red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RelativeLayout"
-        />
+        android:text="red"
+        android:background="#ff0000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="orange"
+        android:background="#FFA500"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/red"
+        android:layout_marginLeft="64dp"/>
+
+    <Button
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yellow"
+        android:background="#FFFF00"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="blue"
+        android:background="#0000FF"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/orange"
+        android:layout_alignStart="@+id/orange" />
+    <Button
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="green"
+        android:background="#00FF00"
+        android:layout_marginLeft="40dp"
+        android:layout_alignTop="@+id/blue"
+        android:layout_toStartOf="@+id/blue" />
+
+    <Button
+        android:id="@+id/indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="indigo"
+        android:background="#6600FF"
+        android:layout_marginRight="40dp"
+        android:layout_alignTop="@+id/blue"
+        android:layout_toEndOf="@+id/blue" />
+    <Button
+        android:id="@+id/violet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="violet"
+        android:background="#9400D3"
+        android:layout_alignParentBottom="true"
+         />
 
 </RelativeLayout>

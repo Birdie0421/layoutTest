@@ -1,5 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <TableRow>
+        <TextView
+            android:text="Open..."
+            android:textColor="#A8A8A8"
+            android:padding="20dip"
+           />
+
+        <TextView
+            android:text="Ctrl-O"
+            android:textColor="#A8A8A8"
+            android:layout_marginRight="230dp"
+            android:layout_gravity="right"
+            android:padding="20dip"
+            android:stretchColumns="1"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Save..."
+            android:textColor="#A8A8A8"
+            android:padding="20dip"
+            />
+
+        <TextView
+            android:text="Ctrl-S"
+            android:textColor="#A8A8A8"
+            android:layout_marginRight="230dp"
+            android:layout_gravity="right"
+            android:padding="20dip"
+            android:stretchColumns="1"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Save AS..."
+            android:textColor="#A8A8A8"
+            android:padding="20dip"
+            />
+
+        <TextView
+            android:text="Ctrl-Shift-S"
+            android:textColor="#A8A8A8"
+            android:layout_marginRight="130dp"
+            android:layout_gravity="right"
+            android:padding="20dip"
+            android:stretchColumns="1"
+            />
+
+    </TableRow>
+
+    <TableRow>
+    <TextView
+        android:text="X Import"
+        android:textColor="#A8A8A8"
+        android:padding="20dip"
+        />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="X port"
+            android:textColor="#A8A8A8"
+            android:padding="20dip"
+            />
+
+        <TextView
+            android:text="Ctrl-E"
+            android:textColor="#A8A8A8"
+            android:layout_marginRight="130dp"
+            android:layout_gravity="right"
+            android:padding="20dip"
+            android:stretchColumns="1"
+            />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Quit"
+            android:textColor="#A8A8A8"
+            android:padding="20dip"
+            />
+
+    </TableRow>
+
+
 
 </TableLayout>
