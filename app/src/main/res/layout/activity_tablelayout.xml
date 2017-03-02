@@ -2,10 +2,11 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#A8A8A8"
     >
 
-    <TableRow>
+    <TableRow
+        android:background="#000000">
         <TextView
             android:text="Open..."
             android:textColor="#A8A8A8"
@@ -23,7 +24,8 @@
 
     </TableRow>
 
-    <TableRow>
+    <TableRow
+        android:background="#000000">
         <TextView
             android:text="Save..."
             android:textColor="#A8A8A8"
@@ -41,7 +43,13 @@
 
     </TableRow>
 
-    <TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#000000"
+        android:layout_marginBottom="1dip"
+        >
         <TextView
             android:text="Save AS..."
             android:textColor="#A8A8A8"
@@ -59,7 +67,8 @@
 
     </TableRow>
 
-    <TableRow>
+    <TableRow
+        android:background="#000000">
     <TextView
         android:text="X Import"
         android:textColor="#A8A8A8"
@@ -68,9 +77,14 @@
 
     </TableRow>
 
-    <TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#000000"
+        android:layout_marginBottom="1dip">
         <TextView
-            android:text="X port"
+            android:text="X Export"
             android:textColor="#A8A8A8"
             android:padding="20dip"
             />
@@ -86,7 +100,9 @@
 
     </TableRow>
 
-    <TableRow>
+    <TableRow
+
+        android:background="#000000">
         <TextView
             android:text="Quit"
             android:textColor="#A8A8A8"
@@ -95,6 +111,11 @@
 
     </TableRow>
 
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        >
 
-
+    </TableLayout>
 </TableLayout>
