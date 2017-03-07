@@ -21,9 +21,9 @@
         android:layout_height="wrap_content"
         android:text="orange"
         android:background="#FFA500"
+        android:gravity="center"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/red"
-        android:layout_marginLeft="64dp"/>
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/yellow"
@@ -50,6 +50,7 @@
         android:text="green"
         android:background="#00FF00"
         android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
         android:layout_alignTop="@+id/blue"
         android:layout_toStartOf="@+id/blue" />
 
@@ -59,6 +60,7 @@
         android:layout_height="wrap_content"
         android:text="indigo"
         android:background="#6600FF"
+        android:layout_marginLeft="10dp"
         android:layout_marginRight="40dp"
         android:layout_alignTop="@+id/blue"
         android:layout_toEndOf="@+id/blue" />

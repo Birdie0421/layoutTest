@@ -18,7 +18,9 @@
 
         <activity
             android:name=".RelativeLayoutActivity"
-            android:label="This is RelativeLayout" >
+            android:label="This is RelativeLayout"
+            android:screenOrientation="landscape"
+            >
             <intent-filter>
                 <action android:name="com.example.activitytest.ACTION_START" />
 
